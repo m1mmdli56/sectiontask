@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #4D4D4D;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn {
+    width: 133px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: rgba(192, 192, 192, 0.155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-parent {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    width: 457px;
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    color: #4D4D4D;
+}
+
+span {
+    color: #4CAF4F;
+}
+
+.img {
+    width: 272px;
+    height: 283px;
+}
+
+.clients {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(192, 192, 192, 0.155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-parent {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    padding-bottom: 6px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    color: #4D4D4D;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: #4D4D4D;
+}
+
+.clients-img {
+    width: 100%;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients-h2 {
+    padding-top: 30px;
+}
+
+.clients-p {
+    padding-top: 6px;
+}
+
+.icon {
+    padding-bottom: 17px;
+}
+
+.clients-cards {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0 30px 0;
+}
+
+.client-card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
